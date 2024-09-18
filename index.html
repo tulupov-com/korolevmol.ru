@@ -19,17 +19,19 @@
 	<script src="js/popper.min.js"></script>
 	<!-- Yandex.Metrika counter -->
 	<script type="text/javascript" >
-	   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-	   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-	   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-	   ym(74361979, "init", {
+		(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+		m[i].l=1*new Date();
+		for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+		k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+		(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+	
+		ym(98374917, "init", {
 			clickmap:true,
 			trackLinks:true,
 			accurateTrackBounce:true
-	   });
+		});
 	</script>
-	<noscript><div><img src="https://mc.yandex.ru/watch/74361979" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<noscript><div><img src="https://mc.yandex.ru/watch/98374917" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 	<!-- /Yandex.Metrika counter -->
 </head>
 <body data-spy="scroll" data-target="#navbarNav">
@@ -57,8 +59,9 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a class="nav-link" href="shedule.html">Расписание</a></li>
 					<li class="nav-item"><a class="nav-link" href="#about">О нас</a></li>
-					<li class="nav-item"><a class="nav-link" href="#command">Команда</a></li>
+					<li class="nav-item"><a class="nav-link" href="#command">Руководство</a></li>
 					<li class="nav-item"><a class="nav-link" href="#contact">Контакты</a></li>
 				</ul>
 			</div>
@@ -432,7 +435,7 @@
 	<div id="command"></div>
 	<div class="row mx-0 pt-3 gradient">
 		<div class="container" data-aos="flip-down">
-			<h3 class="mb-0"><b>Команда</b></h3>
+			<h3 class="mb-0"><b>Руководство</b></h3>
 			<p>главное - это Люди</p>
 		</div>
 	</div>
@@ -441,55 +444,11 @@
 			<div class="col-md-4 text-center" data-aos="flip-down">
 				<div class="card special-skill-item border-0">
 					<div class="card-header bg-transparent border-0">
-						<img src="img/masik.jpg" width="100%" alt="Масик">
+						<img src="img/masik1.jpeg" width="100%" alt="Масик">
 					</div>
 					<div class="card-body pb-0">
 						<h6 class="card-title2">Мария Масик</h6>
 						<p class="card-text">директор</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 text-center order-sm-first" data-aos="flip-down">
-				<div class="card special-skill-item border-0">
-					<div class="card-header bg-transparent border-0">
-						<img src="img/ugrelidze.jpg" width="100%" alt="Олег Угрелидзе">
-					</div>
-					<div class="card-body pb-0">
-						<h6 class="card-title2">Олег Угрелидзе</h6>
-						<p class="card-text">главный эксперт</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 text-center" data-aos="flip-down">
-				<div class="card special-skill-item border-0">
-					<div class="card-header bg-transparent border-0">
-						<img src="img/anton.jpg" width="100%" alt="Антон Андреев">
-					</div>
-					<div class="card-body pb-0">
-						<h6 class="card-title2">Антон Андреев</h6>
-						<p class="card-text">Главный эксперт</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 text-center" data-aos="flip-down">
-				<div class="card special-skill-item border-0">
-					<div class="card-header bg-transparent border-0">
-						<img src="img/ershova.jpg" width="100%" alt="Ершова">
-					</div>
-					<div class="card-body pb-0">
-						<h6 class="card-title2">Елена Ершова</h6>
-						<p class="card-text">специалист по закупкам</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 text-center" data-aos="flip-down">
-				<div class="card special-skill-item border-0">
-					<div class="card-header bg-transparent border-0">
-						<img src="img/sanya.jpg" width="100%" alt="Ершова">
-					</div>
-					<div class="card-body pb-0">
-						<h6 class="card-title2">Александр Самков</h6>
-						<p class="card-text">Главный эксперт</p>
 					</div>
 				</div>
 			</div>
@@ -535,9 +494,58 @@
 				</div>
 			</div>
 		</div>
+		<div class="row mx-0 pt-3 pb-3 d-flex justify-content-center text-center" style="background-color:black;">
+			<div class="col-6 col-md-4 col-lg-1 px-3 text-center">
+				<img src="pay/White/MIR_white-1.svg" alt="МИР">
+			</div>
+			<div class="col-6 col-md-4 col-lg-1 px-3 text-center">
+				<img src="pay/White/SP_white.svg" alt="Samsung Pay">
+			</div>
+			<div class="col-6 col-md-4 col-lg-1 px-3 text-center">
+				<img src="pay/White/AP_white.svg" alt="Apple Pay">
+			</div>
+			<div class="col-6 col-md-4 col-lg-1 px-3 text-center">
+				<img src="pay/White/GP_white.svg" alt="Google Pay">
+			</div>
+			<div class="col-6 col-md-4 col-lg-1 px-3 text-center">
+				<img src="pay/White/unitelller_white.svg" alt="Uniteller">
+			</div>
+			<div class="col-6 col-md-4 col-lg-1 px-3 text-center">
+				<img src="pay/White/UnionPay_whhite.svg" alt="UnionPay">
+			</div>
+			<div class="col-6 col-md-4 col-lg-1 px-3 text-center">
+				<img src="pay/White/DK_white.svg" alt="DK">
+			</div>
+			<div class="col-6 col-md-4 col-lg-1 px-3 text-center">
+				<img src="pay/White/JCB_white.svg" alt="JCB">
+			</div>
+			<div class="col-6 col-md-4 col-lg-1 px-3 text-center">
+				<img src="pay/White/amex_white.svg" alt="American Express">
+			</div>
+			<div class="col-6 col-md-4 col-lg-1 px-3 text-center">
+				<img src="pay/White/mp_white.svg" alt="MasterPass">
+			</div>
+		</div>
+		<div class="row mx-0 pt-3">
+			<div class="col-12 col-lg-4 px-3 text-center">
+				<ul>
+					<li><a href="pdfs/dogovor.pdf">Договор-оферта</a></li>
+				</ul>
+			</div>
+			<div class="col-12 col-lg-4 px-3 text-center">
+				<ul>
+					<li><a href="pdfs/politika.pdf">Политика конфиденциальности</a></li>
+				</ul>
+			</div>
+			<div class="col-12 col-lg-4 px-3 text-center">
+				<ul>
+					<li><a href="pdfs/poradok.pdf">Порядок использования и возврата</a></li>
+				</ul>
+			</div>
+		</div>
 		<div class="row mt-3 mx-0" style="background-color:black;">
 			<div class="col-12 pt-3 px-3 d-flex justify-content-center text-center">
-				<p>Copyright (c) 2021 Молодёжный центр &laquo;КОСМОС&raquo;</p>
+				<p>Copyright (c) 2024 Молодёжный центр &laquo;КОСМОС&raquo;</p>
 			</div>
 		</div>
 	</footer>
